@@ -85,7 +85,7 @@ MPC.W = diag([.2,... %  x
 MPC.WN = MPC.W(1:nx,1:nx)*Num;
           
 
-Record = 1;
+Record = 0;
 if Record
     vv = VideoWriter('test');
     open(vv);
